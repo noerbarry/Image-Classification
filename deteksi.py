@@ -2,6 +2,10 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
+ 
+print(tf.__version__)
+print(tf.config.list_physical_devices('GPU'))
+
 
 # Memuat model deteksi berat sapi
 model = tf.keras.models.load_model('model.h5')
