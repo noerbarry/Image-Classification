@@ -1,4 +1,4 @@
-# "Image Classification App with Streamlit and Pretrained Models
+# Image Classification App with Streamlit and Pretrained Models
 This is a simple image classification application built using Streamlit. It allows users to upload an image and perform image classification using pretrained models from torchvision.
 
 ## Prerequisites
